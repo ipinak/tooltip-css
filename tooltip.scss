@@ -2,14 +2,6 @@ $tooltip-border-color: rgba(0,0,0,0.7) transparent transparent transparent !defa
 $tooltip-text-color: #fff !default;
 $tooltip-bg-color: rgba(0,0,0,0.7);
 
-button{
-    background-color: #f1f;
-    border: 1px solid #1ff;
-    border-radius: 4px;
-    padding: 8px 12px;
-    color: #45c8db;
-}
-
 [tooltip] {
     margin:20px 60px;
     position:relative;
