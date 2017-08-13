@@ -2,18 +2,13 @@
   "name": "tooltip",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "ipinak",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.5.3"
+    "node-sass": "4.5.3"
   },
   "scripts": {
     "release": "node-sass --output-style compressed tooltip.scss > tooltip.min.css",
-    "build": "node-sass tooltip.scss > tooltip.css",
-    "help": "node-sass -h"
+    "build": "node-sass tooltip.scss > tooltip.css"
   }
 }
